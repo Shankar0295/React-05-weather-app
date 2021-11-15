@@ -1,0 +1,64 @@
+.temp-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--clr-font-1);
+    border-radius: 20px;
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--clr-font-1);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    
+}
+
+.temp-display{
+    text-align: center;
+}
+
+.temp-deg{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.temp-feellike{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.icon-container{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.icon{
+    width: 100px;
+}
+
+.location-container{
+    text-align: center;
+    font-weight: bold;
+}
+
+.details-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    grid-gap:10px;
+}
+
+.additional-details{
+    border-radius: 20px;
+    background: var(--clr-font-1);
+}
+.error{
+    text-align: center;
+    color: #fefeff;
+}

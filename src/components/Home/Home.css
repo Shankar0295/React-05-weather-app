@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input{
+    border-bottom: 1px solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+}
+
+input:focus{
+    outline: 0;
+    
+}
+
+.input-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city-field, .country-field{
+    color: #fefeff;
+    font-weight: bold;
+    margin-right: 5px;
+    
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fefeff;;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fefeff;;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fefeff;
+  }
+
+.input-padding{
+    padding: 5px 10px;
+}
+
+.weather-button{
+    border-radius: 5px;
+    border: 0px;
+    color: #000000;
+    background-color: #05ff05;
+    padding: 5px 10px;
+    font-weight: bold;
+
+
+}
+

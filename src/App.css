@@ -1,0 +1,20 @@
+@media (min-width: 320px) and (max-width: 767px){
+    .temp-card{
+        width: 50%
+    }
+    .container{
+        width:50%;
+    }
+    .details-container{
+        width:80%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .temp-card{
+        width: 30%
+    }
+    .container{
+        width:50%;
+    }
+}

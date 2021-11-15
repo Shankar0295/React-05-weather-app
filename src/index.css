@@ -1,13 +1,29 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--clr-primary-1);
+  font-size: 18px;
+  background-image: url('./images/clear_sky.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: #308def;
+  /* --clr-primary-1: #101039; */
+  --clr-secondory-1: #efc244;
+  /* --clr-card-1: #1a1c49; */
+  --clr-font-1: #fefeffb0;
+  --font-weight-1 : 400;
+ 
 }
